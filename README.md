@@ -14,11 +14,7 @@ These instructions may be modified over time for purposes of clarification or to
 Assignment details
 ---
 
-This assignment requires that your website is both contained in a GitHub repository and hosted in Render. There are a few ways to do this:
-
-1. Fork this repo and clone it to your computer, make changes locally on your computer, push the repo onto GitHub, and then import your GitHub repo into Render.
-2. Fork this repo and then import it directly to Render, use the Render editor to make changes, and then export your repo from Render back to GitHub.
-3. Same as #1, but instead of importing from Github to Render you just upload the files (or copy/paste) them directly to Render.
+This assignment requires that your website is both contained in a GitHub repository and hosted in Render.
 
 ### Clone to computer, push to Github, import to Render (recommended)
 
