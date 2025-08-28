@@ -11,6 +11,8 @@ you'll need skills with these tools throughout the rest of the course.
 
 These instructions may be modified over time for purposes of clarification or to provide additional options. The requirements will NOT change. You can see any updates by looking at the commit history of this document in GitHub.
 
+**AI POLICY REMINDER:** You must adhere to the AI policy described in the course syllabus, including citations of any AI tools you used and how you used them.
+
 Assignment details
 ---
 
