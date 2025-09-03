@@ -38,7 +38,7 @@ When approaching this part of the assignment, I wanted to create an animation th
 
 So when looking towards the work I had done in simple-animation.js, what I had done was inside the script, I would first wait for the DOM to load, which would then go on to select the title element. From this I would then introduce the variable, "angle," which I would use to then track the animation state, which I would follow up by defining an "animate()" function. The significance of this function, is that each time it runs, it calculates an offset with "Math.sin(angle) * 25", in which the it produces values that sway between negative 25 and positive 25. What comes of this, is that the offset is then applied to the element using "transform: translateX(...)", and now what happens is a shift in the title horizontally. Lastly, what comes of this is that after applying the transform, the function increases the angle slightly to advance the motion, which then uses "requestAnimationFrame" to call itself again, creating a continuous loop for "swaying" motion.
 
-Now with JavaScript File being created the last step was to adjust index.html and server.js to the new file. For the html file, at the near end, I would implement the following line ─ <script src="simple-animation.js" defer></script>. The significance of this line is that it explicitly tells my website to load the animation file, and along with the, the defer attribute makes sure that the script would only execute once the HTML content had been fully parsed. This is important, as if this element is not incorporate, them there would be no prevention of errors when trying to access the <h1> element. Now when transitioning to server.js, similar to Part 1, I would implement a case for "/simple-animation.js", in which I would use "sendFile(response, 'simple-animation.js', 'text/javascript')". The significance of this component is that allows for whenever the browser requested the file, it would in turn have the server would respond correctly and specify its MIME type as text or JavaScript. Now, if this case were not implemented, it would result in the server returning a 404 error, which would mean that the animation logic would never reach the website.
+Now with JavaScript File being created the last step was to adjust index.html and server.js to the new file. For the html file, at the near end, I would implement the following line ─ <script src="simple-animation.js" defer></script>. The significance of this line is that it explicitly tells my website to load the animation file, and along with the, the defer attribute makes sure that the script would only execute once the HTML content had been fully parsed. This is important, as if this element is not incorporate, them there would be no prevention of errors when trying to access the "h1" element. Now when transitioning to server.js, similar to Part 1, I would implement a case for "/simple-animation.js", in which I would use "sendFile(response, 'simple-animation.js', 'text/javascript')". The significance of this component is that allows for whenever the browser requested the file, it would in turn have the server would respond correctly and specify its MIME type as text or JavaScript. Now, if this case were not implemented, it would result in the server returning a 404 error, which would mean that the animation logic would never reach the website.
 
 Challenge(s) Faced:
 - Unlike the last part, where I did not have much knowledge in CSS, I do have a general understanding of how to program in JavaScript. However, I did not know much about how to animate in JavaScript, so learning about the "animate()" function took me a little longer to understand and implement.
@@ -48,7 +48,7 @@ Challenge(s) Faced:
 
 When tackling the last technical component of the assignment, the way I wanted to use my semantic HTML tags was similar to how I approached the CSS portion of the assignment. As in I wanted to continue on with improving the overall structure of the website, but this time, I wanted to rely making my page more clear without having to rely only on "style." So when going about this, the 5 semantic HTML tags that I thought would improve my website would be: header, nav, section, article, and footer.
 
-- header: The significance of this tag, is that it is designed to be at the top page, as it is meant to group the main <h1> title together navigation. What comes of this is that it ensures that both the main title and navigation are more so labeled as introductory elements, rather than scattered pieces of content on the page.
+- header: The significance of this tag, is that it is designed to be at the top page, as it is meant to group the main "h1" title together navigation. What comes of this is that it ensures that both the main title and navigation are more so labeled as introductory elements, rather than scattered pieces of content on the page.
 
 - nav: When you look further into the "header", what you will is the "nav" tag, which is designed to wrap anchor links, which points to ID's on the page. Specifically, when establishing:
 * href = "#introduction"
@@ -89,8 +89,8 @@ Color Palette:
 The way in which I approached "coloring" my website would be through using targeted CSS rules in custom-style.css. Specifically, I would the following implementations:
 - The website background was set with #26ABE6
 - Body text used #E1E2E2
-- The main title <h1> used #4BE6B8 
-- Subheadings <h2> were styled with #2B00C7
+- The main title (Header | "h1") used #4BE6B8 
+- Subheadings (Subheading | "h2") were styled with #2B00C7
 - For lists, both bullet markers and text used #00725B
 - Borders and dividers incorporated #E60044 to break up sections visually.
 
