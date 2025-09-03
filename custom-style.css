@@ -1,0 +1,49 @@
+/* Rohan Gladson */
+/* CS 4241: Webware: Computational Technology for Network Information Systems */
+/* custom-styles.css */
+
+/* Style 1: Page Background, Base Text Color, and Font */
+body {
+  background-color: #26ABE6;                 
+  color: #E1E2E2;                            
+  font-family: "Libertinus Sans", sans-serif;
+  margin: 16px;
+}
+
+/* Style 2: Main title */
+h1 {
+  color: #4BE6B8;                            
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 18px;
+}
+
+/* Style 3: Subheadings */
+h2 {
+  color: #2B00C7;                            
+  margin-top: 28px;
+  padding-top: 10px;
+  border-top: 3px solid #E60044;             
+}
+
+/* Style 4: Bullet marker color */
+ul li::marker {
+  color: #00725B;                            
+}
+
+/* Style 5: Bullet TEXT color (Only List Items) */
+ul li {
+  color: #00725B;                            
+}
+
+/* Style 6: Adjusting Readability */
+p { line-height: 1.5; max-width: 80ch; }
+ul { margin-left: 28px; line-height: 1.5; }
+
+/* [Additional Style] Style 7: Footer Spacing and Font Color */
+footer {
+    color: #000000;    
+    line-height: 1.5; 
+    max-width: 80ch;  
+    border-top: 3px solid #E60044;                       
+}

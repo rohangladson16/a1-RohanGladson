@@ -1,111 +1,116 @@
 Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Render
-===
 
-*DUE: Friday, August29, 2025 by 11:59 PM*
+Rohan Gladson Render Website: 
 
-First assignment! You will deploy the starting Web site that you will use this term to [Render](https://www.render.com/). 
+Introduction:
 
-Treat this assignment as a chance to get up to speed on Git, GitHub, and Render, as well as experiment some with HTML/CSS/JS. If you already know these, great! 
-However, if you're new to them, spend several hours practicing, experimenting, and reading documentation. Don't just get your website up and done, as
-you'll need skills with these tools throughout the rest of the course.
+This project shows my implementation of Assignment 1 requirements, which is be able to create a simple personal website, and afterward deploy it through GitHub and Render. Throughout my development of website, I would use my skills to tackle the required implementation of technical, such as being able to CSS for website customization or  JavaScript for animations, and design achievements in which I would implement a custom color palette from Adobe Color, and integrating a Google Font.
 
-These instructions may be modified over time for purposes of clarification or to provide additional options. The requirements will NOT change. You can see any updates by looking at the commit history of this document in GitHub.
+Technical Achievement:
 
-**AI POLICY REMINDER:** You must adhere to the AI policy described in the course syllabus, including citations of any AI tools you used and how you used them.
+Part 1: CSS Styling
 
-Assignment details
----
+Now when approaching this portion of the assignment, my goal with my approach of CSs styling was to make website look more structured, as it would allow for better readability. The way I went about creating my structure, was by first creating my CSS file ─ custom-style.css, in which I would adjust certain elements of the website, that being: Website Body, Header, Sub-Header(s), Bullet Point and Text Color, and lastly, Website Readability. 
 
-This assignment requires that your website is both contained in a GitHub repository and hosted in Render.
+- Body: The way I went about doing this was by establishing all the major components of the body when looking at the website's skeleton draft, which would be: The base text presentation (as in the general text on website), margins. Along with that, in this area we would establish the global font used throughout the website, as well as the general color used for most text, however, we tackle that in more detail in parts 4 and 5.'
 
-### Clone to computer, push to Github, import to Render (recommended)
+- Header | h1: Now one of the major elements of the website, comes down to the website's title, and with this area I primarily focused on adjusting two areas ─ the padding and the margins, as these areas were the only two areas of significance when creating an updated version of the title.
 
-1. Fork the starting assignment code in GitHub. This repo contains the following:
-    * The server code, `server.js`
-    * A starting `index.html` file that you will edit as described below
-    * A package.json file that helps configure Render
-    * This README
-2. Edit `index.html` to show the following information about you:
-    * your name and class at WPI (e.g. class of 2025) Note: Do not put any contact or personal information that you do not potentially want other people outside of this class to see.
-    * your major(s) and minor(s)
-    * previous computer science courses that you have taken at WPI
-    * your experience with the following technologies and methods (none, some, a lot)
-        * HTML
-        * CSS
-        * Java
-        * JavaScript
-        * Python
-        * Unit testing
-		* Refactoring code
-3. Complete some technical and/or design achievements (see below).
-4. Test your project to make sure that when someone goes to your main page, it displays correctly. You can do this locally by simply running `node server.js` from within the assignment directory and then going to `localhost:3000` in your browser.
-5. Modify the README file according to the specification below.
-6. Commit and push all your changes to GitHub. 
-7. Deploy your project to Render. You can do this by [importing the repo from GitHub](https://render.com/docs/github).
-    * You will need to create an Render account first.
-    * Under "Publish Directory", you can just put "./" (without the quotation marks).
-8. Ensure that your project has the proper naming scheme (guide follows) so we can find it.
-9. Create and submit a Pull Request to the original repo. This helps us find your project.
-	* Ignore any messages about conflicts. You do not need to resolve them.
-	* Make the title of your pull request "Pull Request for NAME" (ex. "Pull Request for Joshua Cuneo")
+- Subheading | h2: Wit this area, I shared the same principles as the header, with slight changes, as this time I chose to prioritize the spacing both above and below, as well as implanting a dividing line, as it would make distinguishing the sections a little clearer.
 
-### Note about alternative hosting
-Our use of Render in this class is there as a convenience for you. However, if you are already familiar with hosting through other services--or if you would like to self-host--that's perfectly fine so long as the website in question meets all of the assignment requirements. Note that we will not be able to help you if you run into issues on other hosting platforms, and you will be responsible for making sure the website stays up and running for the duration of the term. For A1, you will also still need to create a pull request with your name and your website's URL.
+- ul | li::marker: When looking at this component separately, it may not hold much significance, however, I was struggling to adjust the bullet points color to that of the texts of bullet point, as they were not synonymous. So the purpose of this style, was to simply change the appearance of list bullets, making them feel more unique to my website instead of the default.
 
-Naming and URL Scheme
----
+- ul | li: This component was to created to adjust the visual appearance of the text that followed the bullet point, and making it's own separate category versus the general text was all it to have a more unique presence on website.
 
-You must use a consistent naming scheme for all projects in this course.
-If we can't find it, we can't grade it.
+- Adjusting Readability: This last style was simply an area for me to improve the reading quality of my website, by implementing components that adjust the paragraph line-height, limiting text width, or even simply adjusting list spacing so the information of the website doesn't feel to cluttered.
 
-The name scheme should be `a1-yourFirstAndLastName`.
-The `a1` will need to be updated to `a2`, `a3`, and so on in future assignments.
+Lastly, after creating all these components in CSS file, I would then go on to modify index.html and server.js, so as make sure the everything was able to run smoothly, and changes that would be made in the CSS file could automatically be seen on the website after a refresh. The way I went about do this was in the index.html file, I would include the stylesheet with <link rel="stylesheet" href="custom-style.css">. The significance of this is that this would instruct my website to load any of the rules, and when looking at server.js, I would update the file by incorporating another case to file for "/custom-style.css". The significance of this implementation was to make sure that the file was served correctly with the text/CSS MIME type.
 
-Rubric
----
-For the Technical and Design achievements, make sure you thoroughly describe in your README what you did why it was challenging. ALL ACHIEVEMENTS MUST BE DESCRIBED IN YOUR README IN ORDER TO GET CREDIT FOR THEM. Remember that the success of Achievements hinges on how well you describe them in your README. Well formatted text, images, and concise and clear descriptions are helpful. You must include a Technical Achievements and Design Achievements section, even if none are attempted.
+Challenge(s) Faced:
+- Since I am still relatively new to CSS, as I have been using it for only a couple of months, learning the implementations and methods needing to be used took a me a little longer then anticipated. 
+- While I was able to figure generally about how I would have to adjust the html file after my CSS file creation, I did not realize that I would also have to adjust the server.js file as well. I was only able to catch this when initially, none of my styles appeared. It was only after adding a proper case in server.js, that I was able to fix the matter.
+- Adjusting the bullet point visual along with the text was a challenge, which I went into further detail above, in the "ul | li::marker" section.
 
-Note that if you want to load resources besides your index.html file (images, an CSS file, a JS file) you'll need to modify server.js to point to these. For now it's easiest to just hardcode paths to the resources, but we'll look at ways to optimize this shortly.
+-------------------------------------------------------------
 
-*Basic Requirements*
+Part 2: JavaScript Animation
 
-(10 points each)
+When approaching this part of the assignment, I wanted to create an animation that was noticeable, but also pretty straightforward. I started off, by first creating a JavaScript file ─ simple-animation.js, in which the animation that I was going for the title of my Web page to be constantly moving side-to-side. 
 
-1. Assignment has proper naming scheme
-2. Files forked from original repo
-3. `index.html` properly rendered
-4. `index.html` page properly edited
-5. All changes pushed to GitHub
-6. Project deployed to Render (or other hosting option)
-7. Pull Request submitted to original repo
+So when looking towards the work I had done in simple-animation.js, what I had done was inside the script, I would first wait for the DOM to load, which would then go on to select the title element. From this I would then introduce the variable, "angle," which I would use to then track the animation state, which I would follow up by defining an "animate()" function. The significance of this function, is that each time it runs, it calculates an offset with "Math.sin(angle) * 25", in which the it produces values that sway between negative 25 and positive 25. What comes of this, is that the offset is then applied to the element using "transform: translateX(...)", and now what happens is a shift in the title horizontally. Lastly, what comes of this is that after applying the transform, the function increases the angle slightly to advance the motion, which then uses "requestAnimationFrame" to call itself again, creating a continuous loop for "swaying" motion.
 
-*Technical Achievements*
-1. (5 points) Style your page using CSS. Each style rule you apply will get you 1 point for a maximum of 5 points. Be sure to describe your style rules in your README.
-2. (5 points) Add a simple JavaScript animation to the page.
-3. (5 points) Experiment with other *semantic* HTML tags (links, images, tables, header, footer, etc.). Each extra tag you use will get you 1 point for a maximum of 5 points. Be sure to describe the tags you use in your README.
+Now with JavaScript File being created the last step was to adjust index.html and server.js to the new file. For the html file, at the near end, I would implement the following line ─ <script src="simple-animation.js" defer></script>. The significance of this line is that it explicitly tells my website to load the animation file, and along with the, the defer attribute makes sure that the script would only execute once the HTML content had been fully parsed. This is important, as if this element is not incorporate, them there would be no prevention of errors when trying to access the <h1> element. Now when transitioning to server.js, similar to Part 1, I would implement a case for "/simple-animation.js", in which I would use "sendFile(response, 'simple-animation.js', 'text/javascript')". The significance of this component is that allows for whenever the browser requested the file, it would in turn have the server would respond correctly and specify its MIME type as text or JavaScript. Now, if this case were not implemented, it would result in the server returning a 404 error, which would mean that the animation logic would never reach the website.
 
-*Design Achievements*
-1. (10 points) Create a color palette using [color.adobe.com](https://color.adobe.com). Use all the colors in the palette in your webpage by implementing the appropriate CSS. Add a small screenshot of the color wheel for your color palette to your repo.
-2. (5 points) Use a font from [Google Fonts](https://fonts.google.com) in your website.
+Challenge(s) Faced:
+- Unlike the last part, where I did not have much knowledge in CSS, I do have a general understanding of how to program in JavaScript. However, I did not know much about how to animate in JavaScript, so learning about the "animate()" function took me a little longer to understand and implement.
+- One issue that I was noticing initially when tackling this part of the assignment was that there browser caching, which had it to where older versions of the script to linger. To adjust to this issue, I more so relied on console logs and hard-refreshes to verify changes were working.
 
-**NOTE:** There are additional color pallette and font options listed on Canvas under Modules -> Resources -> Color Pallettes and Fonts. You are welcome to use one of those instead. If you know of and would like to use any other resources that are not included, feel free to contact the instructor.
+-------------------------------------------------------------
 
-Resources
----
+Part 3: Semantic HTML tags
 
-If you need refreshers for JavaScript/HTML/CSS or Git/GitHub, check out the resources posted on Canvas under Modules -> Resources.
+When tackling the last technical component of the assignment, the way I wanted to use my semantic HTML tags was similar to how I approached the CSS portion of the assignment. As in I wanted to continue on with improving the overall structure of the website, but this time, I wanted to rely making my page more clear without having to rely only on "style." So when going about this, the 5 semantic HTML tags that I thought would improve my website would be: header, nav, section, article, and footer.
 
+- header: The significance of this tag, is that it is designed to be at the top page, as it is meant to group the main <h1> title together navigation. What comes of this is that it ensures that both the main title and navigation are more so labeled as introductory elements, rather than scattered pieces of content on the page.
 
-Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
----
+- nav: When you look further into the "header", what you will is the "nav" tag, which is designed to wrap anchor links, which points to ID's on the page. Specifically, when establishing:
+* href = "#introduction"
+* href = "#technologies"
+* href = "#experience"
 
-Joshua Cuneo
-http://a1-joshuacuneo.onrender.com
+What we do is allow for "nav" to provide a more quick in-page navigation. While the implementation does not have much more overall significance to my website, as the content is minimal, the practice of implementing quick navigation is important in most website development.
 
-This project shows ...
+- section: With this semantic tag, what I was looking for was to enclose each major block that we established in "nav": introduction, technologies, and experience. Essentially, what this does in return is that for both the browser and those that use the website, it simply signals that theses areas are distinct units. 
 
-## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- article: With this semantic tag, I would establish in two areas, specifically I would use to for two sub sections in the "Experience" part of the site. What I was aiming to do was to have one of the article tags warp the academic experience list, and while the other usage of the tag is meant to wrap working experience. Essentially the significance of the article tag is meant to for self-contained pieces of content that could stand alone, so the need for it made sense in this section, as it would distinguish each section in experience from academic and work experience into independent blocks.
 
-## Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- footer: For the last semantic tag that I used, if anything this tag has no overall significance for my website, however, in when looking into how website is traditionally designed, the footer is significant, as represents closing content for the document. In the case of my code, it's implementation is there simply there to close off the information of my created site, as it contains my name, the assignment, and WPI. 
+
+Challenge(s) Faced:
+- Unlike the previous section, I would say that I faced the most challenge in this section, as I had more familiar use to CSS and JavaScript. Whereas, with HTML, along with the my work for the assignment, I was also learning about HTML concepts, which led to a further understanding of semantic HTML tags. Essentially, learning and understanding the significance of the semantic implementations was the biggest challenge.
+
+-------------------------------------------------------------
+
+Design Achievements: 
+
+Part 4: Create a Color Palette
+
+Unlike the components tackled in the Technical Achievements section, the components tackled in the design achievements sections is very much straightforward with implementation.
+
+So, when looking at this part in particular, I created a six-color palette using Adobe Color, in which I would use the colors from the wheel throughout my website. 
+
+Color Palette:
+![Adobe Color Palette Screenshot](ColorWheel.png)
+
+- NOTE: Incase there are issues that comes with image not rendering, the colors that I got from my color wheel were:
+
+* #E1E2E2
+* #01D7E6
+* #CE7AE6
+* #2B00C7
+* #4BE6B8
+* #26ABE6
+
+The way in which I approached "coloring" my website would be through using targeted CSS rules in custom-style.css. Specifically, I would the following implementations:
+- The website background was set with #26ABE6
+- Body text used #E1E2E2
+- The main title <h1> used #4BE6B8 
+- Subheadings <h2> were styled with #2B00C7
+- For lists, both bullet markers and text used #00725B
+- Borders and dividers incorporated #E60044 to break up sections visually.
+
+Challenge(s) Faced:
+- As mentioned earlier, given this sections straightforward nature, implementing the color's from my custom color palette did not present much issues, as we had already established the CSS format back during the technical achievements section in Part 1. Ultimately, the process was simply taking the hex-values of the color from my color wheel, and then implementing them into their respective locations. The only challenge that came with section, was the adjusting of colors that would work well on my page, but ultimately, that was more of small creative hurdle if anything.
+
+-------------------------------------------------------------
+
+Part 5: Use a font from Google Fonts in your website.
+
+Similar to Part 4, and the overall Design Achievements section, this two components were much straightforward in approach, and required more of a creative touch than that of the technical elements of the assignment.
+
+Having said that, for this part I implemented the custom font, Libertinus Sans, from Google Fonts to give the site a more unique touch. The process was very simple, as Google themselves would provide enough instruction when planning on using their fonts. Specifically, that Google provided instructions to embed it into the project, as I would start off by first placing the <link> elements provided by Google in the <head> of index.html. The significance of this step is to establish a connection to Google’s font servers, which in turn ensures that the browser fetches the font before rendering the page. Now one of the other components that is important in the implementation process, is the placement, as the embed code is mean to be placed in the <head>, as if the font is linked after my stylesheet, it would result in the CSS rules potentially failing to apply correctly on the first render.
+
+Lastly, to bring together everything, and making sure everything operates properly, I would update custom-style.css so the body tag used "font-family: "Libertinus Sans", sans-serif;". The sigfincace of this is that by applying it at the body level, it in turn has to where the font is implemented to all elements on the page, without needing to duplicate font rules everywhere. 
+
+Challenge(s) Faced:
+- As mentioned earlier, as well in the previous, given this sections straightforward nature, implementing a Google Font did not present much issues, as the it was simple as implenting embed code in the html file, as well as slighltly modifying the css file. Ultimately, given the plug in play nature of this section, it presented less of challenge as what I had faced working on any of the techincal challenges. The only challenge that came with section, was coming with font that would look good on a website, and similar to part 4, that was more of small creative hurdle if anything.
