@@ -1,14 +1,15 @@
 Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Render
+===
 
 Rohan Gladson Render Website: https://a1-rohangladson.onrender.com/
 
-Introduction:
+### Introduction:
 
 This project shows my implementation of Assignment 1 requirements, which is be able to create a simple personal website, and afterward deploy it through GitHub and Render. Throughout my development of website, I would use my skills to tackle the required implementation of technical, such as being able to CSS for website customization or  JavaScript for animations, and design achievements in which I would implement a custom color palette from Adobe Color, and integrating a Google Font.
 
-Technical Achievement:
+### Technical Achievement:
 
-Part 1: CSS Styling
+### Part 1: CSS Styling
 
 Now when approaching this portion of the assignment, my goal with my approach of CSs styling was to make website look more structured, as it would allow for better readability. The way I went about creating my structure, was by first creating my CSS file ─ custom-style.css, in which I would adjust certain elements of the website, that being: Website Body, Header, Sub-Header(s), Bullet Point and Text Color, and lastly, Website Readability. 
 
@@ -31,9 +32,7 @@ Challenge(s) Faced:
 - While I was able to figure generally about how I would have to adjust the html file after my CSS file creation, I did not realize that I would also have to adjust the server.js file as well. I was only able to catch this when initially, none of my styles appeared. It was only after adding a proper case in server.js, that I was able to fix the matter.
 - Adjusting the bullet point visual along with the text was a challenge, which I went into further detail above, in the "ul | li::marker" section.
 
--------------------------------------------------------------
-
-Part 2: JavaScript Animation
+### Part 2: JavaScript Animation
 
 When approaching this part of the assignment, I wanted to create an animation that was noticeable, but also pretty straightforward. I started off, by first creating a JavaScript file ─ simple-animation.js, in which the animation that I was going for the title of my Web page to be constantly moving side-to-side. 
 
@@ -45,9 +44,7 @@ Challenge(s) Faced:
 - Unlike the last part, where I did not have much knowledge in CSS, I do have a general understanding of how to program in JavaScript. However, I did not know much about how to animate in JavaScript, so learning about the "animate()" function took me a little longer to understand and implement.
 - One issue that I was noticing initially when tackling this part of the assignment was that there browser caching, which had it to where older versions of the script to linger. To adjust to this issue, I more so relied on console logs and hard-refreshes to verify changes were working.
 
--------------------------------------------------------------
-
-Part 3: Semantic HTML tags
+### Part 3: Semantic HTML tags
 
 When tackling the last technical component of the assignment, the way I wanted to use my semantic HTML tags was similar to how I approached the CSS portion of the assignment. As in I wanted to continue on with improving the overall structure of the website, but this time, I wanted to rely making my page more clear without having to rely only on "style." So when going about this, the 5 semantic HTML tags that I thought would improve my website would be: header, nav, section, article, and footer.
 
@@ -69,11 +66,9 @@ What we do is allow for "nav" to provide a more quick in-page navigation. While 
 Challenge(s) Faced:
 - Unlike the previous section, I would say that I faced the most challenge in this section, as I had more familiar use to CSS and JavaScript. Whereas, with HTML, along with the my work for the assignment, I was also learning about HTML concepts, which led to a further understanding of semantic HTML tags. Essentially, learning and understanding the significance of the semantic implementations was the biggest challenge.
 
--------------------------------------------------------------
+### Design Achievements: 
 
-Design Achievements: 
-
-Part 4: Create a Color Palette
+### Part 4: Create a Color Palette
 
 Unlike the components tackled in the Technical Achievements section, the components tackled in the design achievements sections is very much straightforward with implementation.
 
@@ -102,9 +97,7 @@ The way in which I approached "coloring" my website would be through using targe
 Challenge(s) Faced:
 - As mentioned earlier, given this sections straightforward nature, implementing the color's from my custom color palette did not present much issues, as we had already established the CSS format back during the technical achievements section in Part 1. Ultimately, the process was simply taking the hex-values of the color from my color wheel, and then implementing them into their respective locations. The only challenge that came with section, was the adjusting of colors that would work well on my page, but ultimately, that was more of small creative hurdle if anything.
 
--------------------------------------------------------------
-
-Part 5: Use a font from Google Fonts in your website.
+### Part 5: Use a font from Google Fonts in your website.
 
 Similar to Part 4, and the overall Design Achievements section, this two components were much straightforward in approach, and required more of a creative touch than that of the technical elements of the assignment.
 
